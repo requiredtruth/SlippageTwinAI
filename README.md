@@ -3,7 +3,7 @@
 SlippageTwinAI builds a small empirical **execution-cost twin** from completed historical fills. It uses only features declared available when an order arrived, fits on an earlier calibration segment, skips an explicit embargo, and reports errors on untouched later fills.
 
 ```sh
-./doit.sh
+./install.sh
 ```
 
 That command runs the tests, compiles every module, and measures bundled synthetic fills. It downloads nothing and needs no credentials.
