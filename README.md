@@ -59,3 +59,8 @@ Generic transaction-cost models often live inside execution platforms or noteboo
 Donations can fund more production and may request priority for a compatible measurement direction through the issue template with a public transaction hash. They do not guarantee implementation or buy support, ownership, returns, or preference. See [SUPPORT.md](SUPPORT.md) and verify the asset and network before sending.
 
 Apache-2.0 licensed.
+
+
+## Standard launcher
+
+`./run.sh` is the normal entry point. It runs `./install.sh` automatically when setup is missing, then opens the PySide6 control panel with live output and actions for the demo, tests, repair, and stop. Use `./cli.sh` for CLI-only operation.
